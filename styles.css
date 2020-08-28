@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+}
+section {
+    align-items: center;
+}
+
+p {
+    font-size: large;
+}
+
+#container {
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.menu {
+    margin: 1%;
+    padding: 1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    text-decoration: none;
+}
+
+.menu:hover {
+    background-color: lightgray;
+}
+
+.menu a:link, .menu a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.rightContainer {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    margin-right: 10%;
+    margin-left: 2%;
+}
+
+.leftContainer {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    margin-left: 10%;
+    margin-right: 2%;
+}
+
+.leftContainer img, .rightContainer img {
+    border-radius: 50%;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+#intro {
+    display: flex;
+    background-color: #e8ded2;
+    text-align: right;
+}
+
+#profileDesc {
+    width: 50%;
+    justify-content: flex-end;
+    margin-right: 10%;
+    margin-left: 2%;
+}
+
+#education {
+    display: flex;
+    background-color: #a3d2ca;
+    color:#695D46;
+}
+
+#educationDesc {
+    margin-left: 10%;
+    margin-right: 2%;
+}
+
+#leadership {
+    background-color: #5eaaa8;
+    display: flex;
+}
+
+#leadershipDesc {
+    width: 50%;
+    direction: rtl;
+    justify-content: flex-end;
+    margin-right: 10%;
+    margin-left: 2%;
+}
+
+#award {
+    display: flex;
+    background-color: #056676;
+    color: white;
+}
+
+#awardDesc {
+    margin-left: 10%;
+    margin-right: 2%;
+}
+
+#workingExperience {
+    display: flex;
+    background-color: #00334e;
+    color: white;
+}
+
+#workingDesc {
+    width: 50%;
+    direction: rtl;
+    justify-content: flex-end;
+    margin-right: 10%;
+    margin-left: 2%;
+}
+
+#contact {
+    background-color: #1b262c;
+    color: white;
+    text-align: center;
+}
+
+#intro, #education, #leadership, #award, #workingExperience, #contact {
+    padding: 5%;
+}
+
+#profileDesc, #educationDesc, #leadershipDesc, #awardDesc {
+    max-width: 50%;
+}
+
