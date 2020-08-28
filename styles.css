@@ -1,11 +1,24 @@
 body {
     margin: 0;
+    font-family: 'Montserrat';
 }
 section {
     align-items: center;
 }
 
-p {
+h1 {
+    font-size: xx-large;
+}
+
+h2{
+    font-size: x-large;
+}
+
+li {
+    margin-bottom: 2%;
+}
+
+p{
     font-size: large;
 }
 
@@ -62,7 +75,7 @@ p {
 
 #intro {
     display: flex;
-    background-color: #e8ded2;
+    background-color: #ccd4c7;
     text-align: right;
 }
 
@@ -75,32 +88,37 @@ p {
 
 #education {
     display: flex;
-    background-color: #a3d2ca;
+    background-color: #ffffff;
     color:#695D46;
 }
 
 #educationDesc {
+    width: 50%;
     margin-left: 10%;
     margin-right: 2%;
 }
 
 #leadership {
-    background-color: #5eaaa8;
+    background-color: #e6e5e1;
     display: flex;
+}
+
+#leadership li {
+    margin-bottom: 0;
 }
 
 #leadershipDesc {
     width: 50%;
-    direction: rtl;
-    justify-content: flex-end;
+    /* direction: rtl; */
+    /* justify-content: flex-end; */
     margin-right: 10%;
     margin-left: 2%;
 }
 
 #award {
     display: flex;
-    background-color: #056676;
-    color: white;
+    background-color: #ffffff;
+    color:#695D46;
 }
 
 #awardDesc {
@@ -110,14 +128,13 @@ p {
 
 #workingExperience {
     display: flex;
-    background-color: #00334e;
-    color: white;
+    background-color: #e6e5e1;
+    color: black;
 }
 
 #workingDesc {
     width: 50%;
-    direction: rtl;
-    justify-content: flex-end;
+    text-align: left;
     margin-right: 10%;
     margin-left: 2%;
 }
@@ -135,4 +152,3 @@ p {
 #profileDesc, #educationDesc, #leadershipDesc, #awardDesc {
     max-width: 50%;
 }
-
