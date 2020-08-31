@@ -162,7 +162,12 @@ p{
 
 button {
     padding : 2% 5%;
-    background-color : darkgray;
+    background-color : transparent;
+    /* border-radius: 40%; */
+    box-shadow: inset;
     color : white;
     font-size: large;
+    width: auto;
+    border-radius: 10pt
 }
+    
