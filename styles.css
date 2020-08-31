@@ -160,6 +160,9 @@ p{
     max-width: 50%;
 }
 
-#linkedin {
-    width: 10%;
+button {
+    padding : 2% 5%;
+    background-color : darkgray;
+    color : white;
+    font-size: large;
 }
